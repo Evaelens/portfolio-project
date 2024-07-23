@@ -21,8 +21,18 @@ h1 {
     line-height: 1.5;
 }
 
+.about-header h1 {
+    font-size: 64px;
+}
+
 h2 {
     font-size: 64px;
+}
+
+.about-header h2 {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    font-weight: bold;
 }
 
 p {
@@ -81,6 +91,40 @@ img {
     margin-left: auto;
 }
 
+.profile-pic {
+    margin: 60px 0 0 80px;
+    border-radius: 10px;
+}
+
+.inquiry {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary-color);
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin: 130px 100px 70px 100px;
+    border-radius: 10px;
+}
+
+.inquiry h2 {
+    font-size: 48px;
+}
+
+.fa-brands {
+    color: white;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.footer a {
+    color: white;
+    font-family: var(--default-font-family);
+    font-size: 24px;
+}
+
 @media (max-width: 900px) {
     h1 {
         font-size: 44px;
@@ -92,6 +136,11 @@ img {
 
     .header {
         padding: 40px 0px;
+    }
+
+    .inquiry {
+        margin: 100px 0px 70px 0px;
+        border-radius: 0;
     }
 
     .project-description {
