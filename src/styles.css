@@ -177,15 +177,22 @@ img {
 .fa-brands {
     color: white;
     background-color: var(--primary-color);
-    border-radius: 50px;
-    padding: 10px;
-    margin: 10px;
+    border-radius: 50%;
+    padding: 12px 16px;
+    margin: 16px;
+    font-size: 18px;
+    transition: all 100ms ease-in-out;
 }
 
 .footer a {
     color: white;
     font-family: var(--default-font-family);
     font-size: 24px;
+}
+
+.footer a :hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
 }
 
 @media (max-width: 900px) {
